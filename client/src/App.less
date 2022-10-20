@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body,
+html {
+  font-family: 'Poppins';
+}
+
+.login-page {
+  min-height: calc(100vh - 64px);
+  background-color: lightgray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#loader-wrapper{
+  display: none;
+}
+#skeleton{
+  position: fixed;
+  height: 100%;
+  width:100%;
+  z-index: 1000;
+  background: #cabfbfbf;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.stat-card::-webkit-scrollbar {
+  width: 5px;
+}
+ 
+.stat-card::-webkit-scrollbar-track {
+  // box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #ececec;
+
+}
+ 
+.stat-card::-webkit-scrollbar-thumb {
+  background: #b8b8b8;
+  // outline: 1px solid slategrey;
+}
+.ant-timeline-item-tail{
+  border-left: 2px solid #ffff !important;
+}
+.nestedTable{
+  margin: 10px 10px 10px 0px;
+  padding:0 50px;
+}
+.nestedTable .ant-table-thead > tr > th {
+background-color: #c2d3ea !important;
+}
+.ant-table-thead > tr > th {
+  background: #bbda88 !important;
+}
+table, th, td {
+  border:1px solid black;
+  border-collapse: collapse;
+}
